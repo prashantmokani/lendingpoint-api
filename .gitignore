@@ -33,5 +33,5 @@ build/
 .vscode/
 
 #Ignore Sql
-!**/db/migration/**/**.sql
+!**/db/migration/**/*.sql
 *.sql
