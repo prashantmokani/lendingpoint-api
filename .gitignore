@@ -32,7 +32,7 @@ build/
 ### VS Code ###
 .vscode/
 
-#Ignore Sql
+### SQL File ###
 !**/db/migration/**/*.sql
 /*.sql
 
