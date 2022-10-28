@@ -35,3 +35,7 @@ build/
 #Ignore Sql
 !**/db/migration/**/*.sql
 /*.sql
+
+### Log File ###
+/*.log
+/*.gz
