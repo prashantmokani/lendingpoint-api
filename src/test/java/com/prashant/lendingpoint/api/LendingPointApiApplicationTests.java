@@ -1,13 +1,15 @@
-package com.prashant.dcms.api;
+package com.prashant.lendingpoint.api;
 
-import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
+import org.junit.jupiter.api.Test;
+
 @SpringBootTest
-class DcmsApiApplicationTests {
+class LendingPointApiApplicationTests {
 
     @Test
     void contextLoads() {
+
     }
 
 }
