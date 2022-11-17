@@ -12,17 +12,24 @@ import org.springframework.web.bind.annotation.RestController;
 
 import javax.validation.Valid;
 
+import io.github.bucket4j.Bucket;
+
 @RequiredArgsConstructor
 @RestController
 @RequestMapping("/customer")
 public class CustomerController {
 
     private final CustomerService customerService;
+    private final Bucket bucket;
 
     @PostMapping
     public ResponseEntity<Object> customerRegistration(@RequestBody @Valid final CustomerModel customerModel) {
-        customerService.createCustomer(customerModel);
-        return new ResponseEntity<>(HttpStatus.CREATED);
+        if (bucket.tryConsume(1)) {
+            customerService.createCustomer(customerModel);
+            return new ResponseEntity<>(HttpStatus.CREATED);
+        }
+
+        return ResponseEntity.status(HttpStatus.TOO_MANY_REQUESTS).build();
     }
 
 }
