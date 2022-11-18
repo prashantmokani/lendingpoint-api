@@ -1,10 +1,10 @@
 package com.prashant.lendingpoint.api.customer.models;
 
-import com.prashant.lendingpoint.api.customer.entities.CreditScore;
-
 import lombok.Data;
 
 import java.time.LocalDate;
+
+import com.fasterxml.jackson.annotation.JsonFormat;
 
 @Data
 public class CustomerModel {
@@ -15,6 +15,7 @@ public class CustomerModel {
     private String lastName;
     private String email;
     private String phone;
+    @JsonFormat(shape = JsonFormat.Shape.STRING, pattern = "yyyy-MM-dd")
     private LocalDate birthDate;
     private String ssn; //social security number
     private String monthlySalary;
@@ -31,7 +32,7 @@ public class CustomerModel {
     private String loanApprovalCode;
     private String loanAmount;
     private String loanReason;
-    private CreditScore creditScore;
+    private String creditScore;
 
     //bank details
     private String bankName;
