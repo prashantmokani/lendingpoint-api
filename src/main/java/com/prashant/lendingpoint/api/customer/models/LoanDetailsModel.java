@@ -1,7 +1,5 @@
 package com.prashant.lendingpoint.api.customer.models;
 
-import com.prashant.lendingpoint.api.customer.entities.CreditScore;
-
 import lombok.Data;
 
 import java.io.Serializable;
@@ -14,6 +12,6 @@ public class LoanDetailsModel implements Serializable {
     private String loanApprovalCode;
     private String loanAmount;
     private String loanReason;
-    private CreditScore creditScore;
+    private String creditScore;
 
 }

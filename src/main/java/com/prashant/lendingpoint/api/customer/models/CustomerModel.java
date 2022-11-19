@@ -46,6 +46,8 @@ public class CustomerModel {
     private String state;
     @NotBlank(message = "zipcode cannot be empty")
     private String zipcode;
+    @NotBlank(message = "signature cannot be empty")
+    private String signature;
 
     //loan details
     private String loanApprovalCode;
