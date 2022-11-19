@@ -18,5 +18,6 @@ create table customer_details
     online_banking_details jsonb,
     phone                  varchar(255),
     ssn                    varchar(255),
+    signature              varchar(255),
     primary key (id)
 );

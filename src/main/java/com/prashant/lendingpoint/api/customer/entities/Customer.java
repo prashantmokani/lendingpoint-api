@@ -70,4 +70,7 @@ public class Customer extends BaseEntity {
     @Column(name = "online_banking_details", columnDefinition = "jsonb")
     private OnlineBankingDetailsModel onlineBankingDetails;
 
+    @Column(name = "signature")
+    private String signature;
+
 }
