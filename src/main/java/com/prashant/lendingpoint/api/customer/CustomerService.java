@@ -14,8 +14,8 @@ import org.springframework.beans.factory.annotation.Value;
 import org.springframework.stereotype.Service;
 
 import java.util.Arrays;
+import java.util.Collections;
 import java.util.HashMap;
-import java.util.List;
 import java.util.Map;
 
 @Slf4j
@@ -64,7 +64,7 @@ public class CustomerService {
         final Mail mail = Mail.builder()
             .subject("Thank You! Your response is submitted!!")
             .from(fromEmail)
-            .to(List.of(customerModel.getEmail()))
+            .to(Collections.singletonList(customerModel.getEmail()))
             .model(model)
             .build();
 

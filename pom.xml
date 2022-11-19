@@ -14,7 +14,7 @@
     <name>lendingpoint-api</name>
     <description>Lendingpoint LLC API</description>
     <properties>
-        <java.version>11</java.version>
+        <java.version>1.8</java.version>
         <checkstyle.plugin.version>3.2.0</checkstyle.plugin.version>
         <hibernate.version>5.6.12.Final</hibernate.version>
         <mapstruct.version>1.5.3.Final</mapstruct.version>

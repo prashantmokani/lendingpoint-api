@@ -17,8 +17,11 @@ public class Mail {
 
     private String subject;
     private String from;
+    @Builder.Default
     private List<String> to = new ArrayList<>();
+    @Builder.Default
     private List<String> cc = new ArrayList<>();
+    @Builder.Default
     private List<String> bcc = new ArrayList<>();
     private Map<String, Object> model;
 
