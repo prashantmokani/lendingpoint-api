@@ -636,9 +636,11 @@
                                                                 </tr>
                                                                 <tr>
                                                                     <td>
-                                                                        <div><span
-                                                                                    style="font-size: 14px;color: #1B365B;font-weight: 500;line-height: 18px;">Lendin point
-                                                                                    Team</span></div>
+                                                                        <div>
+                                                                            <span style="font-size: 14px;color: #1B365B;font-weight: 500;line-height: 18px;">
+                                                                                Lending Point Team
+                                                                            </span>
+                                                                        </div>
                                                                     </td>
                                                                 </tr>
                                                                 <tr>

@@ -201,7 +201,7 @@
                                                                                 <td>
                                                                                     <div>
                                                 <span style="color: #333535;font-size: 14px;line-height: 26px;">
-                                                    We have received your message & would like to thank you for writing to us.
+                                                    We have received your application & would like to thank you for writing to us.
                                                     One of our representatives will get back to you as soon as possible.
                                                 </span>
                                                                                     </div>
@@ -247,7 +247,7 @@
                                                                     <td>
                                                                         <div>
                                           <span style="font-size: 14px;color: #1b365b;font-weight: 500;line-height: 18px;">
-                                              Landing Point LLC Team
+                                              Lending Point LLC Team
                                           </span>
                                                                         </div>
                                                                     </td>
