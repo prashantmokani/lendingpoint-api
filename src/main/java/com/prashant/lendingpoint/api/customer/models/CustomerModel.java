@@ -38,7 +38,7 @@ public class CustomerModel {
     //address
     @NotBlank(message = "addressLineOne cannot be empty")
     private String addressLineOne;
-    @NotBlank(message = "addressLineTwo cannot be empty")
+
     private String addressLineTwo;
     @NotBlank(message = "city cannot be empty")
     private String city;
