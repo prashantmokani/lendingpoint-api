@@ -4,7 +4,6 @@ import lombok.Data;
 
 import java.time.LocalDate;
 import javax.validation.constraints.NotBlank;
-import javax.validation.constraints.NotNull;
 
 import com.fasterxml.jackson.annotation.JsonFormat;
 
@@ -27,7 +26,6 @@ public class CustomerModel {
     @NotBlank(message = "phone cannot be empty")
     private String phone;
 
-    @NotNull(message = "birthDate cannot be empty")
     @JsonFormat(shape = JsonFormat.Shape.STRING, pattern = "yyyy-MM-dd")
     private LocalDate birthDate;
 

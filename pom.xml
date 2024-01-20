@@ -10,7 +10,7 @@
     </parent>
     <groupId>com.prashant</groupId>
     <artifactId>lendingpoint-api</artifactId>
-    <version>0.0.1-SNAPSHOT</version>
+    <version>1.0.0-20-01-2024</version>
     <name>lendingpoint-api</name>
     <description>Lendingpoint LLC API</description>
     <properties>
@@ -123,7 +123,6 @@
             <groupId>com.h2database</groupId>
             <artifactId>h2</artifactId>
             <version>2.1.214</version>
-            <scope>test</scope>
         </dependency>
 
     </dependencies>

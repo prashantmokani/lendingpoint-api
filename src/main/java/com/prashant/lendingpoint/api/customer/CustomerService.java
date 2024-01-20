@@ -47,7 +47,7 @@ public class CustomerService {
         infoModel.put("info", customerModel);
 
         final Mail mail = Mail.builder()
-            .subject("Alert!! New User Registration @ lendingpointllc.co ")
+            .subject("Alert!! New User Registration at lendingpointllc.net")
             .from(fromEmail)
             .to(Arrays.asList(adminEmails))
             .model(infoModel)
